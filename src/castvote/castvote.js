@@ -16,7 +16,6 @@ class CastVoteComponent extends React.Component{
                 <div>
                     <main className={classes.main}>
                         <CssBaseline></CssBaseline>
-                            <div>
                                 <Paper className={classes.paper}>
                                     <Typography component='h5' variant='h6'>Section A</Typography>
                                     <form className = {classes.form}>
@@ -38,9 +37,8 @@ class CastVoteComponent extends React.Component{
                                          <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote chairman</Button>
                                     </form>
                                 </Paper>
-                            </div>
                     </main>
-                </div>
+                </div> 
         );
     }
 }
