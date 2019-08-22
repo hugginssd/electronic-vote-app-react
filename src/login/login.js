@@ -87,12 +87,6 @@ class LoginComponent extends React.Component {
            });
     }
 
-
-
-
-
-
-
 }
 
 export default withStyles(styles)(LoginComponent);
