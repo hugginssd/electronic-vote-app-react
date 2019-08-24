@@ -13,32 +13,69 @@ class CastVoteComponent extends React.Component{
         const {classes} = this.props;
 
         return(
-                <div>
-                    <main className={classes.main}>
-                        <CssBaseline></CssBaseline>
-                                <Paper className={classes.paper}>
-                                    <Typography component='h5' variant='h6'>Section A</Typography>
-                                    <form className = {classes.form}>
-                                        <FormControl required fullWidth margin ='normal'>
-                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
-                                         </FormControl>
-                                         <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote president</Button>
-                                    </form>
-                                    <form className = {classes.form}>
-                                        <FormControl required fullWidth margin ='normal'>
-                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
-                                         </FormControl>
-                                         <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote secretary</Button>
-                                    </form>
-                                    <form className = {classes.form}>
-                                        <FormControl required fullWidth margin ='normal'>
-                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
-                                         </FormControl>
-                                         <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote chairman</Button>
-                                    </form>
-                                </Paper>
-                    </main>
-                </div> 
+                <div class="container">
+                        <div class="row">
+                                    <div class="col-sm">
+                                        <main className={classes.main}>
+                                                <CssBaseline></CssBaseline>
+                                                <Paper className={classes.paper}>
+                                                    <Typography component='h5' variant='h6'>Section A</Typography>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote president</Button>
+                                                    </form>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote secretary</Button>
+                                                    </form>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote chairman</Button>
+                                                    </form>
+                                                </Paper>
+                                            </main>
+                                    </div>
+                                    <div class="col-sm">
+                                        <main className={classes.main}>
+                                            <CssBaseline></CssBaseline>
+                                                <Paper className={classes.paper}>
+                                                    <Typography component='h5' variant='h6'>Section B</Typography>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote president</Button>
+                                                    </form>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote secretary</Button>
+                                                    </form>
+                                                    <form className = {classes.form}>
+                                                        <FormControl required fullWidth margin ='normal'>
+                                                            <Typography component='h6' variant='h7'>Candidate name</Typography>
+                                                        </FormControl>
+                                                        <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>vote chairman</Button>
+                                                    </form>
+                                                </Paper>
+                                            </main>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                    <Paper className={classes.footerPaper}>
+                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>dashboard</Button>
+                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>logout</Button>
+                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>new candidates</Button>
+                                    </Paper>
+                                    </div>
+                                </div> 
         );
     }
 }
