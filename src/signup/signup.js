@@ -34,8 +34,7 @@ class SignupComponent extends React.Component {
         const { classes } = this.props;
 
 
-        return ( <
-            main className = { classes.main } >
+        return ( <main className = { classes.main } >
             <
             CssBaseline > < /CssBaseline>  <
             Paper className = { classes.paper } >
