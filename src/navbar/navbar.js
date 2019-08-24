@@ -19,10 +19,10 @@ class NavBarComponent extends React.Component{
                                     <a class="nav-link" href="http://localhost:3000/dashboard">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="http://localhost:3000/dashboard">New candidates</a>
+                                    <a class="nav-link" href="http://localhost:3000/createcandidates">New candidates</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="http://localhost:3000/dashboard">Cast vote</a>
+                                    <a class="nav-link" href="http://localhost:3000/castvote">Cast vote</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="http://localhost:3000/dashboard">How to vote</a>

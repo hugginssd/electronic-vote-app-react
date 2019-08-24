@@ -9,6 +9,7 @@ import LoginComponent from './login/login';
 import SignupComponent from './signup/signup';
 import CastVoteComponent from './castvote/castvote';
 import DashboardComponent from './dashboard/dashboard';
+import CreateCandidatesComponent from './createcandidates/createcandidates';
 
 const firebase = require("firebase");
 require("firebase/firestore");
@@ -30,6 +31,7 @@ const routing = (
                 <Route path = '/signup' component = { SignupComponent } ></Route> 
                 <Route path = '/castvote' component = { CastVoteComponent } ></Route>
                 <Route path = '/dashboard' component = { DashboardComponent }></Route> 
+                <Route path = '/createcandidates' component = { CreateCandidatesComponent }></Route> 
             </div>  
         </Router>
     );

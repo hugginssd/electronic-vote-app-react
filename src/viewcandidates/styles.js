@@ -5,7 +5,7 @@ const styles = theme => ({
         marginLeft: theme.spacing.unit *3,
         marginRight: theme.spacing.unit *3,
          [theme.breakpoints.up(400 + theme.spacing.unit * 3 * 2)]: {
-             width: 'auto',
+             width: 400,
              marginLeft: 'auto',
              marginRight: 'auto',
         },
@@ -30,10 +30,8 @@ const styles = theme => ({
        },
     },
     form: {
-        width: '40%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        marginTop: theme.spacing.unit * 3,
+        width: '100%',
+        marginTop: theme.spacing.unit,
     },
     submit: {
         marginTop: theme.spacing.unit * 3,
