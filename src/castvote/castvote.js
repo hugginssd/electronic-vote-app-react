@@ -70,9 +70,9 @@ class CastVoteComponent extends React.Component{
                                     </div>
                                     <div class="col-sm">
                                     <Paper className={classes.footerPaper}>
-                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>dashboard</Button>
-                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>logout</Button>
-                                            <Button type='submit' fullWidth variant='contained' color = 'primary' className={classes.submit}>new candidates</Button>
+                                            <Button type='submit' href="../dashboard/dashboard.js" fullWidth variant='contained' color = 'primary' className={classes.submit}>dashboard</Button>
+                                            <Button type='submit' href="../login/login.js" fullWidth variant='contained' color = 'primary' className={classes.submit}>logout</Button>
+                                            <Button type='submit' href="../createcandidates/createcandidates.js" fullWidth variant='contained' color = 'primary' className={classes.submit}>new candidates</Button>
                                     </Paper>
                                     </div>
                                 </div> 

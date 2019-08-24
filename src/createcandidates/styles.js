@@ -30,7 +30,7 @@ const styles = theme => ({
        },
     },
     form: {
-        width: '40%',
+        width: '100%',
         marginLeft: 'auto',
         marginRight: 'auto',
         marginTop: theme.spacing.unit * 3,
