@@ -25,6 +25,7 @@ const styles = theme => ({
         flexDirection: 'column',
         alignItems: 'center',
         height:90,
+        background: 'blue',
         padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`,
     },
     footerPaper:{
