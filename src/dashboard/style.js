@@ -11,6 +11,11 @@ const styles = theme => ({
              marginRight: 'auto',
         },
     },
+    card:{
+        width: 'auto',
+        color: 'red',
+        marginTop: theme.spacing.unit * 8,
+    },
     typography:{
         marginTop: theme.spacing.unit * 8,
     },
@@ -34,6 +39,7 @@ const styles = theme => ({
             marginRight: 'auto',
        },
     },
+
     form: {
         width: '100%',
         marginTop: theme.spacing.unit,

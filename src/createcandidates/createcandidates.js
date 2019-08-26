@@ -83,16 +83,23 @@ const{classes}= this.props;
                                             </label>
                                             </div>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                            <div class="col-sm">
+                                                <button type="submit" href="/dashboard" class="btn btn-primary">Dashboard</button>
+                                            </div>
+                                        </div>
                                     </form>
                                 </main> 
                        </div>
-                        <div class="col-sm">
-                        <main className={classes.main}>
-                            <CssBaseline></CssBaseline>
-                            <ViewCandidatesComponent></ViewCandidatesComponent>
-                        </main>
-                        </div>
+                            <div class="col-sm">
+                                <main className={classes.main}>
+                                    <CssBaseline></CssBaseline>
+                                    <ViewCandidatesComponent></ViewCandidatesComponent>
+                                </main>
+                            </div>
                         </div>
                 </div>     
         </div>

@@ -16,11 +16,11 @@ class ViewCandidateComponent extends React.Component{
                         <caption>List of registered candidates</caption>
                         <thead>
                             <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First name</th>
-                            <th scope="col">Last name</th>
-                            <th scope="col">Department</th>
-                            <th scope="col">Candidate category</th>
+                                <th scope="col">#</th>
+                                <th scope="col">First name</th>
+                                <th scope="col">Last name</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Candidate category</th>
                             </tr>
                         </thead>
                         <tbody>
