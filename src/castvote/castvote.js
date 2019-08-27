@@ -5,6 +5,7 @@ import styles from './style';
 import withStyles from '@material-ui/core/styles/withStyles';
 import { FormControl, CssBaseline } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
+import NavBarComponent from '../navbar/navbar';
 
 
 class CastVoteComponent extends React.Component{
@@ -13,6 +14,8 @@ class CastVoteComponent extends React.Component{
         const {classes} = this.props;
 
         return(
+            <div >
+            <NavBarComponent></NavBarComponent>
                 <div class="container">
                         <div class="row">
                                     <div class="col-sm">
@@ -76,6 +79,7 @@ class CastVoteComponent extends React.Component{
                                     </Paper>
                                     </div>
                                 </div> 
+                   </div>
         );
     }
 }

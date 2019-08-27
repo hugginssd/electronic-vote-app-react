@@ -32,7 +32,7 @@ class DashboardComponent extends React.Component{
                                 <main className={classes.main}>
                                     <CssBaseline></CssBaseline>
                                     <Typography className={classes.typography} component="h4" variant="h5" color='primary'>
-                                        <strong>Presidential Results</strong>
+                                        <strong class="text-success">Presidential Results</strong>
                                     </Typography>
                                 </main>
                             </div>
@@ -110,7 +110,7 @@ class DashboardComponent extends React.Component{
                                 <main className={classes.main}>
                                     <CssBaseline></CssBaseline>
                                     <Typography className={classes.typography} component="h4" variant="h5" color='primary'>
-                                        <strong>Secretary Results</strong>
+                                        <strong class="text-success">Secretary Results</strong>
                                     </Typography>
                                 </main>
                             </div>

@@ -11,14 +11,14 @@ const styles = theme => ({
         },
     },
     paper: {
-        marginTop: theme.spacing.unit * 8,
+        marginTop: theme.spacing.unit * 3,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`,
     },
     footerPaper:{
-        marginTop: theme.spacing.unit * 8,
+        marginTop: theme.spacing.unit * 3,
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
