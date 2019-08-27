@@ -11,6 +11,24 @@ const styles = theme => ({
              marginRight: 'auto',
         },
     },
+    alert:{
+        width: 'auto',
+        display: 'block', //Fix IE issue
+        marginTop: theme.spacing.unit,
+        marginLeft: theme.spacing.unit *3,
+        marginRight: theme.spacing.unit *3,
+        color: 'red',
+         [theme.breakpoints.up(400 + theme.spacing.unit * 3 * 2)]: {
+             width: '100%',
+             marginLeft: 'auto',
+             marginRight: 'auto',
+        },
+    },
+    divider:{
+
+        marginBottom: theme.spacing.unit * 2,
+
+    },
     card:{
         width: 'auto',
         color: 'red',
@@ -20,12 +38,21 @@ const styles = theme => ({
         marginTop: theme.spacing.unit * 8,
     },
     paper: {
-        marginTop: theme.spacing.unit * 8,
+        marginTop: theme.spacing.unit ,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         height:90,
         background: 'blue',
+        padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`,
+    },
+    paperSuccess:{
+        marginTop: theme.spacing.unit * 8,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        height:90,
+        background: 'green',
         padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`,
     },
     footerPaper:{
