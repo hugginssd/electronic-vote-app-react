@@ -11,6 +11,7 @@ import CastVoteComponent from './castvote/castvote';
 import DashboardComponent from './dashboard/dashboard';
 import CreateCandidatesComponent from './createcandidates/createcandidates';
 import ViewCandidatesComponent from './viewcandidates/viewcandidates';
+import HowToVoteComponent from './howtovote/howtovote';
 
 const firebase = require("firebase");
 require("firebase/firestore");
@@ -34,6 +35,7 @@ const routing = (
                 <Route path = '/dashboard' component = { DashboardComponent }></Route> 
                 <Route path = '/createcandidates' component = { CreateCandidatesComponent }></Route> 
                 <Route path = '/viewcandidates' component = { ViewCandidatesComponent }></Route> 
+                <Route path = '/howtovote' component = { HowToVoteComponent }></Route> 
             </div>  
         </Router>
     );
