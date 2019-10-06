@@ -3,8 +3,8 @@ import styles from './style'
 import withStyles from '@material-ui/core/styles/withStyles'
 import Typography from '@material-ui/core/Typography'
 import NavBarComponent from '../navbar/navbar'
-import Paper from '@material-ui/core/Paper'
-import {FormControl, Button, CssBaseline, Divider } from '@material-ui/core';
+// import Paper from '@material-ui/core/Paper'
+import { CssBaseline, Divider } from '@material-ui/core';
 
 // import List from '@material-ui/core/List'
 // import ListItem from '@material-ui/core/ListItem'
